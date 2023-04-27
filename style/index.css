@@ -87,7 +87,7 @@ body{
 
 .img-container2{
     height: 60vh;
-    background: url('../Img/img1.png') no-repeat;
+    background: url('../img/img1.png') no-repeat;
     background-size: 500px;
     background-position: right;
     width: 40%;
