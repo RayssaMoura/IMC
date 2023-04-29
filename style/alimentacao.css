@@ -41,7 +41,7 @@ body{
 }
 
 .container-geral{
-    height: 370vh;
+    height: 350vh;
     align-items: center;
     margin-top: 4%
 }
@@ -186,7 +186,6 @@ body{
 }
 
 .container-6{
-    border: 2px solid red;
     display: flex;
     height: 65vh;
 }
