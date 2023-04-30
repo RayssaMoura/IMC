@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    background: transparent;
+}
+
+.lista{
+    margin-left: 70vh;
+    display: flex;
+}
+
+.lista li{
+    list-style: none;
+}
+
+.lista li a{
+    font-size: 16px;
+    font-family: 'Shantell Sans', cursive;
+    color: red;
+    text-decoration: none;
+    margin-left: 10vh;
+    transition: 0.5s;
+}
+
+.lista a:hover{
+    opacity: 1.5;
+    color: brown;
+}
+
+.container-geral{
+    height: 300vh;
+    align-items: center;
+    margin-top: 4%
+}
+
+.container{
+    display: flex;
+    height: 55vh;
+}
+
+
+.txt-container {
+    margin-top: 6%;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+.txt-container h1{
+    margin-left: 8%;
+    text-align: justify;
+    color: red;
+    font-size: 85px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.img-container{
+    height: 55vh;
+    background: url('../img/img2.png') no-repeat;
+    background-size: 450px;
+    background-position: right;
+    width: 40%;
+    align-items: center;
+}
+
+.container-2{
+    display: flex;
+    height: 110vh;
+}
+
+.txt-container2{
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-container2 p{
+    font-size: 20px;
+    margin-top: 4%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.txt-container2 li{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 4%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.container-3{
+    display: flex;
+    height: 70vh;
+}
+
+
+.img-container3{
+    background: url('../img/img6.png') no-repeat;
+    background-size: 430px;
+    background-position: center;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-container3{
+    margin-top: 2%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-container3 p{
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 9%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.container-4{
+    display: flex;
+    height: 60vh;
+}
+
+
+.img-container4{
+    background: url('../img/img5.png') no-repeat;
+    background-size: 430px;
+    background-position: left;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-container4{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-container4 p{
+    margin-top: 2%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.container-5{
+    display: flex;
+    height: 80vh;
+}
+
+
+.img-container5{
+    background: url('../img/img5.png') no-repeat;
+    background-size: 400px;
+    background-position: center;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-container5{
+    margin-top: 2%;
+    width: 70%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-container5 p{
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 9%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.container-6{
+    display: flex;
+    height: 70vh;
+}
+
+
+.img-container6{
+    background: url('../img/img6.png') no-repeat;
+    background-size: 400px;
+    background-position: left;
+    width: 35%;
+    align-items: center;
+}
+
+.txt-container6{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-container6 p{
+    margin-top: 4%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Shantell Sans', cursive;
+}
