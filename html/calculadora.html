@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/calculadora.css">
+    <script src="../js/calculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="menu">
+        <ul class="lista">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./alimentacao.html">Alimentação</a></li>
+            <li><a href="./imc.html">Entenda sobre o IMC</a></li>
+            <li><a href="#">Calculdora IMC</a></li>
+        </ul>
+    </div>
+
+    <div class="container-geral">
+
+        <div class="container">
+            <div class="txt-container">
+                <h1>CALCULADORA IMC</h1>
+            </div>
+            <div class="img-container"></div>
+        </div>
+
+        <div class="container-2">
+            <div class="container-cal">
+                <div class="calculadora">
+                    <div class="form">
+                        <label for="">Idoso</label>
+                        <input type="checkbox" id="idoso">
+                        <label for="">Adulto</label>
+                        <input type="checkbox" id="adulto"><br><br>
+                        <label for="">Peso</label><br><br>
+                        <input type="number" id="peso" placeholder="Peso em Kg"><br><br>
+                        <label for="">Altura</label><br><br>
+                        <input type="number" step="0.01" id="altura" placeholder="Altura em Metro"><br><br>
+                        <button onclick="validate(), calcular()">Calcular</button><br><br>
+                        <button onclick="calcular_novamente()">Calcular Novamente</button>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container2">
+                <p>Resultado !</p>
+                <img src="../img/img7.png" id="result_img" alt="">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
